@@ -1,42 +1,23 @@
+import { Hero, Navbar, TechStack } from "./components";
 
 
 export default function Home() {
   return (
-    <div className="">
+    <div className=" bg-slate-50 h-screen">
       {/* NAV */}
-      <div>
-        {/* Navbar */}
-        <div>
-          {/* Logo & Name */}
-        </div>
-        {/* Justified between */}
-        <div>
-          {/* About, Projects, Services, CTA */}
-        </div>
+      <div className=" pt-2">
+        <Navbar />
       </div>
 
       {/* HERO */}
       <div>
         {/* Hero */}
-        <div>
-          {/* Items center */}
-          <div>
-            {/* Image of Riyan And Sanjeev */}
-          </div>
-          <div>
-            {/* We'll tell were're from IITK...blah blah blah */}
-          </div>
-          <div>
-            {/* Contact us */}
-          </div>
-        </div>
+        <Hero />
       </div>
 
-
-
       <div>
-        {/* Tech Stack */}
         {/* Carrousal */}
+        <TechStack />
       </div>
 
       <div>
