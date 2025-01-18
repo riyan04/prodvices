@@ -1,4 +1,7 @@
-import { Hero, Navbar, TechStack } from "./components";
+
+import { Hero, Navbar, TechStack, } from "./components";
+import Contact from "./components/Contact";
+
 
 
 export default function Home() {
@@ -22,6 +25,7 @@ export default function Home() {
 
       <div>
         {/* Offerings */}
+        <Contact/>
         
       </div>
       <div>
