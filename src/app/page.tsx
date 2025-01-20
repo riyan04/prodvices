@@ -1,21 +1,17 @@
 
-import { Hero, Navbar, TechStack, } from "./components";
+import { Hero, TechStack, } from "./components";
 import Contact from "./components/Contact";
 
 
 
 export default function Home() {
   return (
-    <div className=" bg-slate-50 h-screen">
-      {/* NAV */}
-      <div className=" pt-2">
-        <Navbar />
-      </div>
+    <div>
+      <div className="bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-purple-100 to-white">
 
-      {/* HERO */}
-      <div>
-        {/* Hero */}
-        <Hero />
+        <div className="py-[150px] w-[50%] mx-auto " >
+          <Hero />
+        </div>
       </div>
 
       <div>
@@ -23,10 +19,13 @@ export default function Home() {
         <TechStack />
       </div>
 
-      <div>
+      <div className=" bg-slate-50 py-6">
         {/* Offerings */}
-        <Contact/>
-        
+        <div className=" w-[90%] bg-white mx-auto">
+
+          <Contact />
+        </div>
+
       </div>
       <div>
         {/* Projects */}
