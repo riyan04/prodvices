@@ -1,5 +1,5 @@
 
-import { Hero, TechStack, } from "./components";
+import { Hero, Projects, TechStack, } from "./components";
 import AboutUs from "./components/Aboutus";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -25,9 +25,15 @@ export default function Home() {
         <div className=" w-[90%] bg-white mx-auto">
           <AboutUs />
         </div>
-
-
       </div>
+
+
+      <div>
+        <div className=" w-[90%] mx-auto">
+          <Projects />
+        </div>
+      </div>
+
       <div className=" bg-slate-50 py-6">
         {/* Offerings */}
         <div className=" w-[90%] bg-white mx-auto">
