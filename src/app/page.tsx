@@ -1,6 +1,8 @@
 
 import { Hero, TechStack, } from "./components";
+import AboutUs from "./components/Aboutus";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 
 
@@ -28,11 +30,14 @@ export default function Home() {
 
       </div>
       <div>
-        {/* Projects */}
+      <div className=" w-[90%] bg-white mx-auto">
+        <AboutUs/>
+        </div>
+      
 
       </div>
       <div>
-        {/* CTA */}
+      <Footer/>
       </div>
     </div>
   );
