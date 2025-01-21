@@ -22,14 +22,6 @@ type TechStack = {
 };
 
 const techStack: TechStack[] = [
-  // { name: "JavaScript", icon: "🟨" },
-  // { name: "React", icon: "⚛️" },
-  // { name: "Node.js", icon: "🟩" },
-  // { name: "NestJS", icon: "🔺" },
-  // { name: "Docker", icon: "🐳" },
-  // { name: "PostgreSQL", icon: "🐘" },
-  // { name: "MongoDB", icon: "🍃" },
-  // { name: "TypeORM", icon: "🛠️" },
   {src: "logo-javascript.svg"},
   {src: "prisma-2.svg"},
   {src: "docker-3.svg"},

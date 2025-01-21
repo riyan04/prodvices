@@ -1,15 +1,21 @@
 'use client';
+import Image from 'next/image';
 import React from 'react';
 
-const Footer: React.FC = () => {
+const Footer = () => {
   return (
     <footer className="flex items-center justify-between p-6">
       {/* Left Section: Logo */}
       <div className="flex items-center">
-        <img 
+        {/* <Image 
           src="/logo.png" 
           alt="Logo" 
           className="h-10 w-10 mr-3" 
+        
+        /> */}
+        <Image
+          src="/logo.png" 
+          alt="Logo" 
         />
         <span className="text-lg font-bold">YourBrand</span>
       </div>
@@ -28,7 +34,7 @@ const Footer: React.FC = () => {
 
       {/* Right Section: Text */}
       <div className="text-right">
-        <p className="text-sm">© {new Date().getFullYear()} YourBrand. All rights reserved.</p>
+        <p className="text-sm">© {new Date().getFullYear()} Prodvices. All rights reserved.</p>
         <p className="text-sm">Powered by YourTeam</p>
       </div>
     </footer>

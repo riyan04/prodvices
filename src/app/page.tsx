@@ -21,6 +21,13 @@ export default function Home() {
         <TechStack />
       </div>
 
+      <div>
+        <div className=" w-[90%] bg-white mx-auto">
+          <AboutUs />
+        </div>
+
+
+      </div>
       <div className=" bg-slate-50 py-6">
         {/* Offerings */}
         <div className=" w-[90%] bg-white mx-auto">
@@ -30,14 +37,7 @@ export default function Home() {
 
       </div>
       <div>
-      <div className=" w-[90%] bg-white mx-auto">
-        <AboutUs/>
-        </div>
-      
-
-      </div>
-      <div>
-      <Footer/>
+        <Footer />
       </div>
     </div>
   );
