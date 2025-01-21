@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 
-const AboutUs: React.FC = () => {
+const AboutUs = () => {
   return (
     <div className="flex items-center justify-center h-auto p-7 rounded-3xl border shadow-lg">
       <div className="max-w-4xl text-center">
@@ -27,7 +27,7 @@ const AboutUs: React.FC = () => {
             dedication to deliver high-quality products that make a difference.
           </p>
           <p>
-            Whether it's crafting dynamic web applications, optimizing system
+            Whether it&apos;s crafting dynamic web applications, optimizing system
             performance, or embedding AI-driven functionalities, we are
             committed to excellence in everything we do.
           </p>
