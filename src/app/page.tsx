@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       <div className="bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-purple-100 to-white">
 
-        <div className="py-[150px] w-[50%] mx-auto " >
+        <div id="hero" className="py-[150px] w-[50%] mx-auto " >
           <Hero />
         </div>
       </div>
@@ -22,21 +22,21 @@ export default function Home() {
       </div>
 
       <div>
-        <div className=" w-[90%] bg-white mx-auto">
+        <div id="about" className=" w-[90%] bg-white mx-auto">
           <AboutUs />
         </div>
       </div>
 
 
       <div>
-        <div className=" w-[90%] mx-auto">
+        <div id="project" className=" w-[70%] mx-auto">
           <Projects />
         </div>
       </div>
 
       <div className=" bg-slate-50 py-6">
         {/* Offerings */}
-        <div className=" w-[90%] bg-white mx-auto">
+        <div id="contact" className=" w-[90%] bg-white mx-auto">
 
           <Contact />
         </div>

@@ -1,6 +1,7 @@
 // import Image from "next/image"
 
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 
 const Hero = () => {
@@ -15,11 +16,12 @@ const Hero = () => {
           <h3 className=" text-muted-foreground">We build custom AI solutions for your specific needs.</h3>
         </div>
         <div className=" mt-4 flex items-center justify-center h-[50px] gap-6">
-          <Button>
-            Discover our services
+          <Button asChild>
+            <Link href={"#project"}>Discover our services</Link>
           </Button>
-          <Button variant={"outline"}> 
-            Meet Us
+          <Button asChild variant={"outline"}> 
+            <Link href={"#contact"}>Meet Us</Link>
+            
           </Button>
         </div>
     </div>

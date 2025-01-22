@@ -9,6 +9,9 @@ export default {
   ],
   theme: {
   	extend: {
+		scale: {
+			'105': '1.05'
+		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

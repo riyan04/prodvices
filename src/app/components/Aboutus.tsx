@@ -7,8 +7,8 @@ const AboutUs = () => {
       <div className="max-w-4xl text-center">
         <h1 className="font-bold text-4xl mb-6 mt-10">About Us</h1>
         <p className="text-lg leading-7 text-gray-800 mb-4">
-          We are a passionate team of IITians with extensive experience in
-          software development and web development. Our expertise lies in
+          We are a passionate team of IITians and AI Engineers with extensive experience in
+          software, web and AI development. Our expertise lies in
           building robust, scalable, and user-friendly solutions tailored to
           meet the unique needs of our clients.
         </p>
@@ -19,7 +19,7 @@ const AboutUs = () => {
           growth.
         </p>
 
-        <button className=' w-[10rem] h-[3rem] bg-black rounded-full mt-5 ml-7 text-slate-100'>Email the Founder</button>
+        <button className=' w-[10rem] h-[3rem] bg-black rounded-full mt-5 text-slate-100'>Email the Founder</button>
         <h2 className="font-bold text-2xl mt-8 mb-4 text-black">Our Mission</h2>
         <div className="text-lg leading-7 text-gray-800 space-y-4">
           <p>

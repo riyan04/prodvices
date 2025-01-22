@@ -24,39 +24,18 @@ type ProjectType = {
 
 const ProjectList: ProjectType[] = [
   {
-    name: "pro1",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ea tenetur ipsum, deleniti autem labore fugit. In blanditiis porro, error nostrum, minus numquam unde sit modi quia necessitatibus, facere amet.",
-    img: "mongodb-icon-2.svg",
-    github: "Githublink",
-    view: "viewLink"
+    name: "Workman",
+    description: "A product management app designed to make your workflow productive and organized",
+    img: "/workmanss.png",
+    github: "https://github.com/riyan04/workman",
+    view: "https://workman-beta.vercel.app/"
   },
   {
-    name: "pro1",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ea tenetur ipsum, deleniti autem labore fugit. In blanditiis porro, error nostrum, minus numquam unde sit modi quia necessitatibus, facere amet.",
-    img: "",
-    github: "Githublink",
-    view: "viewLink"
-  },
-  {
-    name: "pro1",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ea tenetur ipsum, deleniti autem labore fugit. In blanditiis porro, error nostrum, minus numquam unde sit modi quia necessitatibus, facere amet.",
-    img: "nest.svg",
-    github: "Githublink",
-    view: "viewLink"
-  },
-  {
-    name: "pro1",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ea tenetur ipsum, deleniti autem labore fugit. In blanditiis porro, error nostrum, minus numquam unde sit modi quia necessitatibus, facere amet.",
-    
-    github: "Githublink",
-    view: "viewLink"
-  },
-  {
-    name: "pro1",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ea tenetur ipsum, deleniti autem labore fugit. In blanditiis porro, error nostrum, minus numquam unde sit modi quia necessitatibus, facere amet.",
-    img: "",
-    github: "Githublink",
-    view: "viewLink"
+    name: "Craftboard",
+    description: "A creative brainstorming white board app for collaborative flow of ideas, design mockups and workflow visualization",
+    img: "/craftboardss.png",
+    github: "https://github.com/riyan04/craftboard",
+    view: "https://craftboard.vercel.app/"
   },
 ] 
 
@@ -66,17 +45,17 @@ const Projects = () => {
     <div className="flex items-center justify-center">
       <h1 className=" text-4xl mb-5 font-bold">Projects</h1>
     </div>
-    <div className="  grid grid-cols-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+    <div className=" mt-6  grid grid-cols-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
       {
         ProjectList.map((project, index) => (
-          <Card key={index} className=" w-full bg-slate-100 border-none">
+          <Card key={index} className=" w-full hover:scale-105 transition ease-in-out border-none hover:shadow-2xl">
         <CardContent>
           {(project.img)
             ? (
-              <Image src={project.img} alt="proImage" width={200} height={100} />
+              <Image className=" shadow-md rounded-lg" src={project.img} alt="proImage" width={300} height={100} />
             )
             : (
-              <div className=" w-full h-[200px] bg-red-500">
+              <div className=" w-full h-[60px] bg-red-500">
                 Image
               </div>
             )
@@ -95,11 +74,11 @@ const Projects = () => {
           </CardDescription>
         </CardHeader>
         <CardFooter>
-          <div className=" flex items-center gap-4">
-            <Button>
+          <div className=" w-full flex justify-end items-center gap-5">
+            <Button variant={"ghost"} className=" hover:bg-slate-300">
               <FaExternalLinkAlt />
             </Button>
-            <Button>
+            <Button variant={"ghost"} className=" hover:bg-slate-300">
               <FaGithub />
             </Button>
           </div>
