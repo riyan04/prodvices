@@ -109,7 +109,7 @@ const ContactUs: React.FC = () => {
                   value={value}
                   onChange={handleChange}
                   placeholder={placeholder}
-                  className="flex-1 p-2 bg-gray-200 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none h-24 text-black"
+                  className="flex-1 p-2 bg-gray-200 border border-gray-300 rounded-md focus:ring-2 focus:ring-gray-900 focus:outline-none h-24 text-black"
                   required
                 ></textarea>
               ) : (
@@ -120,7 +120,7 @@ const ContactUs: React.FC = () => {
                   value={value}
                   onChange={handleChange}
                   placeholder={placeholder}
-                  className="flex-1 p-2 bg-gray-200 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none text-black"
+                  className="flex-1 p-2 bg-gray-200 border border-gray-300 rounded-md focus:ring-2 focus:ring-gray-900 focus:outline-none text-black"
                   required
                 />
               )}
