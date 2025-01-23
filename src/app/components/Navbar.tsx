@@ -19,7 +19,7 @@ const Navbar = () => {
       {/* Desktop Menu */}
       <div className="hidden md:flex justify-end gap-8">
         <Link href={"#home"}>Home</Link>
-        <Link href={"#project"}>Our Services</Link>
+        <Link href={"#services"}>Our Services</Link>
         <Link href={"#about"}>About Us</Link>
         <Link href={"#contact"}>Contact</Link>
       </div>

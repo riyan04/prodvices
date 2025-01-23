@@ -3,6 +3,7 @@ import { Hero, Projects, TechStack, } from "./components";
 import AboutUs from "./components/Aboutus";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import ServicesPage from "./components/OurServices";
 
 
 
@@ -11,15 +12,12 @@ export default function Home() {
     <div>
       <div className="bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-purple-100 to-white">
 
-        <div id="hero" className="py-[150px] w-[50%] mx-auto " >
+        <div id="hero" className="py-[50px] w-[50%] mx-auto " >
           <Hero />
         </div>
       </div>
 
-      <div>
-        {/* Carrousal */}
-        <TechStack />
-      </div>
+     
 
       <div>
         <div id="about" className=" w-[90%] bg-white mx-auto">
@@ -33,7 +31,16 @@ export default function Home() {
           <Projects />
         </div>
       </div>
-
+      <div>
+        {/* Carrousal */}
+        <TechStack />
+      </div>
+      
+      <div id="services">
+      
+        <ServicesPage/>
+        
+      </div>
       <div className=" bg-slate-50 py-6">
         {/* Offerings */}
         <div id="contact" className=" w-[90%] bg-white mx-auto">
@@ -43,7 +50,7 @@ export default function Home() {
 
       </div>
       <div>
-        <Footer />
+      <Footer />
       </div>
     </div>
   );
