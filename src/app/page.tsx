@@ -12,7 +12,7 @@ export default function Home() {
     <div>
       <div className="bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-purple-100 to-white">
 
-        <div id="hero" className="py-[150px] w-[50%] mx-auto " >
+        <div id="hero" className="py-[50px] w-[50%] mx-auto " >
           <Hero />
         </div>
       </div>
