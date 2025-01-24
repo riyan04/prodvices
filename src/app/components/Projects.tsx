@@ -47,7 +47,7 @@ const Projects = () => {
       <div className="flex items-center justify-center">
         <h1 className="text-4xl mb-5 font-bold">Projects</h1>
       </div>
-      <div className="mt-6 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div className="mt-6 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {ProjectList.map((project, index) => (
           <Card
             key={index}
